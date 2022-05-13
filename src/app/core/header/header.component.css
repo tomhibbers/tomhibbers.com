@@ -1,0 +1,8 @@
+.dropdown-menu { 
+    background: #161B22;
+    border: 1px solid #30363d; 
+    color: #C9D1D9;
+}
+.dropdown-menu .btn {
+    color: #C9D1D9;
+}

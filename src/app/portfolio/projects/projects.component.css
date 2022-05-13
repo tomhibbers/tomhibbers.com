@@ -5,6 +5,8 @@
 .project-card {
     width: 290px;
     height: 250px;
+    background: #161B22;
+    border: 1px solid #30363d;
 }
 
 .project-title {

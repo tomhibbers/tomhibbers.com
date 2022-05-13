@@ -9,6 +9,8 @@
 .post-card {
     width: 290px;
     height: 360px;
+    background: #161B22;
+    border: 1px solid #30363d;
 }
 
 .post-title {

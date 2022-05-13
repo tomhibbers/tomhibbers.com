@@ -44,3 +44,18 @@
     top: -10%;
     left: -10%;
 }
+
+img {
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid #C9D1D9;
+    padding: 5px;
+}
+@media (max-width: 400px) {
+    img {
+        width: 150px;
+    }
+}
+.profilepic {
+    margin-bottom: 50px;
+}
