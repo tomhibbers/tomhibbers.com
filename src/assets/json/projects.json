@@ -1,0 +1,13 @@
+[
+    {
+        "name": "tomhibbers.com",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "My personal website, written in angular and scully.",
+        "sourceUrl": "https://github.com/tomhibbers/tomhibbers.com",
+        "previewUrl": "https://tomhibbers.com",
+        "featured": true
+    }
+]

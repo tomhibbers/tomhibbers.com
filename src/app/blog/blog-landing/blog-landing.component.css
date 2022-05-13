@@ -1,0 +1,19 @@
+.vw-20 {
+    width: 20vw;
+}
+
+.vh-20 {
+    width: 20vh;
+}
+
+.post-card {
+    width: 290px;
+    height: 360px;
+}
+
+.post-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 20ch;
+}
