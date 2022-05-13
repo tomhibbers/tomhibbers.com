@@ -1,10 +1,12 @@
 {
   "hosting": {
-    "public": "dist/tomhibbersweb",
-    "rewrites": [{
-      "source": "**",
-      "destination": "/index.html"
-    }],
+    "public": "dist/static",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",

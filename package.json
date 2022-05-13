@@ -8,9 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "scully": "npx scully --",
-    "scully:serve": "npx scully serve --",
-    "deploy": "ng build --prod && firebase deploy"
+    "scully": "scully",
+    "scully:serve": "scully serve",
+    "scully:ci": "scully -- --host='0.0.0.0' --scanRoutes --serverTimeout=60000",
+    "build:ci": "npm run build:prod && npm run scully:ci",
+    "build:prod": "NODE_ENV=production ng build --prod"
   },
   "private": true,
   "dependencies": {
