@@ -2,7 +2,7 @@
     <div class="d-flex flex-column min-vh-95 justify-content-center align-items-center w-100">
         <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
             class="flex-column justify-content-center align-items-start w-75">
-            <h1 [ngClass]="options.headingClass" class="text-left">Hello, 🍻. My name is <span
+            <h1 [ngClass]="options.headingClass" class="text-left">Howdy, 🍻. My name is <span
                     class="font-weight-bold">{{bio.firstName+'
                     '+bio.lastName}}.</span></h1>
             <div *ngFor="let par of bio.intro">

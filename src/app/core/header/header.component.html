@@ -15,10 +15,10 @@
                 <i class="fas fa-lg fa-bars"></i>
             </button>
             <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
-                <button ngbDropdownItem *ngFor="let item of menuItems"
+                <button class="btn" ngbDropdownItem *ngFor="let item of menuItems"
                     [routerLink]="(isHome$ | async) ? item.homePath : item.pagePath"
                     [fragment]="(isHome$ | async) ? item.fragment : ''">{{item.title}}</button>
-                <button ngbDropdownItem (click)="download()">CV</button>
+                <button class="btn" ngbDropdownItem (click)="download()">CV</button>
             </div>
         </div>
     </div>
